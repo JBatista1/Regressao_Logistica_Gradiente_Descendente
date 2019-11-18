@@ -1,6 +1,6 @@
 from dataSetManager import DataSetManager
 from logisticRegression import LogisticRegression
-from prediction import Prediction
+
 class Main:
     def __init__(self, classClassify):
         print("Init Class")
