@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80b18e18-88a9-4350-a8da-9edd35a4d787" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/dataSetManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/dataSetManager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/logisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/logisticRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/prediction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

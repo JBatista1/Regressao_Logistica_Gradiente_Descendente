@@ -11,8 +11,7 @@ class LogisticRegression():
         self.learning_rate = learning_rate
         self.epoch = epoch
         self.__train()
-    def teste(self):
-        print("TT")
+
     def get_value_W(self):
         return self.W
 
@@ -20,7 +19,7 @@ class LogisticRegression():
         size = len(self.X[0])
         array = np.random.rand(1,size)
         return array
-
+    # Printo graphic
     def __binat_cross_entropy(self, W, X, y):
         size = len(X)
         XtW = self.__scalar_product(X,W)
@@ -36,7 +35,7 @@ class LogisticRegression():
     def __train(self):
         print("Train logistic Regression...")
         for i in range(self.epoch):
-            self.W = self.W - (self.learning_rate/len(self.X)) * np.sum((self.__sigmoid(self.X@self.W.T) - self.Y)*self.X, axis= 0)
+            self.W = self.W - (self.learning_rate) * np.sum((self.__sigmoid(self.X@self.W.T) - self.Y)*self.X, axis= 0)
 
     def __scalar_product(self, X, W):
         size = len(X)

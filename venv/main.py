@@ -31,6 +31,6 @@ class Main:
 # 2 = Versiculor
 # 3 = Virginica
 
-main = Main(2)
+main = Main(0)
 # main.logisticAcurracy()
 main.mediaAcurracy(10)
