@@ -19,7 +19,7 @@ class LogisticRegression():
         size = len(self.X[0])
         array = np.random.rand(1,size)
         return array
-    # Printo graphic
+    # Print graphic
     def __binat_cross_entropy(self, W, X, y):
         size = len(X)
         XtW = self.__scalar_product(X,W)
