@@ -5,11 +5,14 @@ from sklearn.model_selection import train_test_split
 # Converter y para array de array para trabalahr com matrizes numpy
 class DataSetManager:
 
-    def __init__(self):
+    def __init__(self, classClassify):
+
+        self.classClassify = classClassify
         self.iris = self.__load_dataset()
         self.X, self.Y = self.__splitDataset()
         self.__add_in_X_x0_equals_one()
         self.X_train, self.X_test, self.Y_train, self.Y_test = self.__create_datas()
+
 
 
     def __create_datas(self):
@@ -36,7 +39,7 @@ class DataSetManager:
         return dataset
 
     def __convert_to_binary_rating(self, y):
-        binaryArray = np.where(y == 0, 0, 1)
+        binaryArray = np.where(y == self.classClassify, 0, 1)
         return binaryArray
 
     def __splitDataset(self):
